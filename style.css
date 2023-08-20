@@ -1,3 +1,17 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(assets/Norse-Bold.otf);
+}
+
+h1 {
+    font-family: Norse-Bold, sans-serif;
+    font-size: 10vh;
+    color: white;
+
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
 body {
     background-color: black;
 
@@ -15,10 +29,11 @@ body {
     /* margin-bottom: 0%; */
 }
 
-
 .left {
-    /* width: 35vw; */
-    /* margin-left: 300px; */
+    width: 35vw;
+
+    display: flex;
+    justify-content: center;
 }
 
 .left img {
@@ -29,3 +44,30 @@ body {
     background-color: white;
     width: 70vw;
 }
+
+.logo {
+    display: flex;
+    align-items: center;
+
+    position: absolute;
+    top: 10vw;
+}
+
+.logo-banner {
+    width: 30vw;
+    height: 18vh;
+    background-color: black;
+    position: absolute;
+    top: 9.2vw;
+    opacity: 50%;
+}
+
+.logo img {
+    width: 5vw;
+}
+
+
+/* .logo-banner {
+    display: flex;
+    align-items: center;
+} */
