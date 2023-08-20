@@ -45,29 +45,27 @@ body {
     width: 70vw;
 }
 
-.logo {
+.logo-and-logo-banner {
     display: flex;
+    justify-content: center;
     align-items: center;
 
     position: absolute;
     top: 10vw;
 }
 
+.logo {
+    display: flex;
+    position: absolute;
+}
+
 .logo-banner {
     width: 30vw;
     height: 18vh;
     background-color: black;
-    position: absolute;
-    top: 9.2vw;
     opacity: 50%;
 }
 
 .logo img {
     width: 5vw;
 }
-
-
-/* .logo-banner {
-    display: flex;
-    align-items: center;
-} */
