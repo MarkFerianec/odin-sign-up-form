@@ -1,0 +1,31 @@
+body {
+    background-color: black;
+
+    margin: 0;
+
+    /* display: flex; */
+}
+
+.center {
+    display: flex;
+
+    margin-left: 15%;
+    margin-right: 15%;
+
+    /* margin-bottom: 0%; */
+}
+
+
+.left {
+    /* width: 35vw; */
+    /* margin-left: 300px; */
+}
+
+.left img {
+    width: 30vw;
+}
+
+.right {
+    background-color: white;
+    width: 70vw;
+}
