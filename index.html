@@ -41,38 +41,53 @@
                 </div>
             </div>
 
+
             <form action="/my-handling-form-page" method="post">
 
-                <div>
-                    <label for="first-name">FIRST NAME</label>
-                    <input type="text" id="first-name" name="first-name" />
+                <div class="form-components">
 
-                    <label for="last-name">LAST NAME</label>
-                    <input type="text" id="last-name" name="last-name" />
-                </div>
+                    <div class="third-sentence">Let's do this!</div>
 
-                <div>
-                    <label for="email">EMAIL</label>
-                    <input type="email" id="email" name="email" />
+                    <div class="flex-row">
+                        <div class="flex-column">
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" id="first-name" name="first-name" />
+                        </div>
+                        <div class="flex-column">
+                            <label for="last-name">LAST NAME</label>
+                            <input type="text" id="last-name" name="last-name" />
+                        </div>
+                    </div>
 
-                    <label for="phone">PHONE NUMBER</label>
-                    <input type="tel" id="phone" name="phone" />
-                </div>
+                    <div class="flex-row">
+                        <div class="flex-column">
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" name="email" />
+                        </div>
+                        <div class="flex-column">
+                            <label for="phone">PHONE NUMBER</label>
+                            <input type="tel" id="phone" name="phone" />
+                        </div>
+                    </div>
 
-                <div>
-                    <label for="password">PASSWORD</label>
-                    <input type="password" id="password" name="password" />
+                    <div class="flex-row">
+                        <div class="flex-column">
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password" name="password" />
+                        </div>
+                        <div class="flex-column">
+                            <label for="passwordconfirm">CONFIRM PASSWORD</label>
+                            <input type="password" id="passwordconfirm" name="password" />
+                        </div>
+                    </div>
 
-                    <label for="passwordconfirm">CONFIRM PASSWORD</label>
-                    <input type="password" id="passwordconfirm" name="password" />
-                </div>
+                    <div>
+                        <button type="submit">Create Account</button>
+                    </div>
 
-                <div>
-                    <button type="submit">Create Account</button> 
                 </div>
 
             </form>
-
         </div>
 
     </div>

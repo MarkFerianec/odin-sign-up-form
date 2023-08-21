@@ -96,8 +96,36 @@ body {
 
 .first-paragraph,
 .first-sentence,
-.second-sentence {
+.second-sentence,
+.third-sentence {
     font-family: sans-serif;
     font-size: 1.1vw;
     font-weight: bold;
+}
+
+
+.flex-row {
+    display: flex;
+    flex-direction: row;
+    gap: 4vw;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2vh;
+}
+
+.form-components {
+    padding-top: 5vw;
+    padding-left: 2vw;
+}
+
+.third-sentence {
+    padding-bottom: 2vh;
+}
+
+label {
+    font-family: sans-serif;
+    font-size: 1.5vh;
 }
