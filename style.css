@@ -23,7 +23,7 @@ body {
 .center {
     display: flex;
 
-    margin-left: 15%;
+    margin-left: 12%;
     margin-right: 15%;
 
     /* margin-bottom: 0%; */
@@ -68,4 +68,11 @@ body {
 
 .logo img {
     width: 5vw;
+}
+
+.photo-credit {
+    position: absolute;
+    bottom: 2vw;
+    color: white;
+    font-size: 0.7vw;
 }
