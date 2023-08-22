@@ -140,3 +140,25 @@ input {
     border-width: 0.1vw;
     width: 13vw;
 }
+
+button {
+    padding: 0.5vw;
+    width: 11vw;
+    background-color: #596D48;
+    color: white;
+    border-radius: 0.5vw;
+    font-size: 1vw;
+    font-weight: 600;
+    border-color: #596D48;
+}
+
+.fourth-sentence {
+    padding-top: 1vh;
+    font-size: 1vw;
+    font-family: sans-serif;
+}
+
+.green-text-formatting {
+    color: #596D48;
+    font-weight: 600;
+}
